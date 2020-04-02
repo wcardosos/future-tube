@@ -1,3 +1,32 @@
+.content {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside:first-of-type(){
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 30vh;
+}
+
+aside:last-of-type() {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+}
+
+
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -7,7 +36,7 @@ main {
 }
 
 main video {
-    width: 70%;
+    width: 100%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 420px) {

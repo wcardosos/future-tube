@@ -1,3 +1,24 @@
+.content {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 50vh;
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main {
     display: grid;
     justify-items: center;
